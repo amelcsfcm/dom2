@@ -98,7 +98,11 @@ else{*/
   `<div><img src="img/${item.imgSrc}"/></div>
   <div>${item.name}</div>
   <div>${item.price}$</div>
-  
+  <div class="plus">+</div>
+  <div class="qte">1</div>
+  <div class="moin">-</div>
+
+   
   `
 
     listcart.appendChild(newLi)
